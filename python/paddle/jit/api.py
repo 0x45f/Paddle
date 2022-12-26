@@ -1563,8 +1563,6 @@ class TracedLayer:
         Examples:
             .. code-block:: python:
 
-                import os
-                os.environ['FLAGS_enable_eager_mode'] = '0'
                 import paddle
 
                 class ExampleLayer(paddle.nn.Layer):
@@ -1615,8 +1613,6 @@ class TracedLayer:
         Examples:
             .. code-block:: python:
 
-                import os
-                os.environ['FLAGS_enable_eager_mode'] = '0'
                 import paddle
 
                 class ExampleLayer(paddle.nn.Layer):
@@ -1721,8 +1717,6 @@ class TracedLayer:
         Examples:
             .. code-block:: python:
 
-                import os
-                os.environ['FLAGS_enable_eager_mode'] = '0'
                 import numpy as np
                 import paddle
 
